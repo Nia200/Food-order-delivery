@@ -45,7 +45,7 @@ const AllFoods = () => {
               <div className="search__widget d-flex align-items-center justify-content-between">
                 <input
                   type="text"
-                  placeholder="Type the food name you looking for..."
+                  placeholder="Type the food name..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
